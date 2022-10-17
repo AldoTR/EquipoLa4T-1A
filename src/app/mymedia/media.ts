@@ -1,10 +1,11 @@
 export function desviacion(array:number[]) {
-    var total=0, result, numDatos, item;
+    var total=0, res, numDatos, item,entero;
     numDatos = array.length;
     for (item = 0; item < numDatos; item++){
         total += array[item];
     }
-    result = total/numDatos;
+    res = total/numDatos;
 
-    return result;
+    return res;
 }
+
